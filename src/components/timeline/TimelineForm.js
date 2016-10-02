@@ -5,7 +5,7 @@ import PictureInput from '../common/PictureInput';
 const TimelineForm = ({tlRow, onSave, onChange, loading, errors}) => {
   return (
     <form>
-      <h1>Upload</h1>
+      <h1 className="jumbotron">Upload</h1>
 
 
       <PictureInput
