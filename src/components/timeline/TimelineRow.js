@@ -3,13 +3,12 @@ import {Link} from 'react-router'
 
 const TimelineRow = ({tlRow}) => {
   return (
-    <div className="content">
-      <img src={tlRow.img} />
-      <h3>Yor Status: {tlRow.result}</h3>
-      <p/>
+    <div className="list-group container-fluid col-xs-12 col-sm-6 col-md-3">
+      <li className="list-group-item"><img src={tlRow.img} className="img-rounded center-block"/></li>
+      <li className="list-group-item"><h3>Yor Status: {tlRow.result}</h3></li>
+      <li className="list-group-item"><p/>
       <h4>Memo: {tlRow.memo}</h4>
-      <p/>
-<h4>-------------------------------</h4>
+      <p/></li>
     </div>
   );
 };

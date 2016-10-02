@@ -20,13 +20,13 @@ class TimelinePage extends React.Component {
     const {tlRows} = this.props;
     return (
       <div>
-        <h1>Timeline</h1>
         {/*ToDo not use bottun but fancy picture upload*/}
-        <input type="submit"
-               value="Add Picture"
-               className="btn btn-primary"
-               onClick={this.redirectToAddTimelinePage}/>
         <TimelineList tlRows={tlRows}/>
+        <button
+          type="submit"
+          className="btn btn-primary floating"
+          onClick={this.redirectToAddTimelinePage}>
+          Post</button>
       </div>
     );
   }
