@@ -24,7 +24,8 @@ class TimelinePage extends React.Component {
         <TimelineList tlRows={tlRows}/>
         <button
           type="submit"
-          className="btn btn-primary floating"
+          className="btn btn-primary btn-block" // remove floating
+          style={{bottom: 300}} //fixedがつかえない。 スタイルで固定したい
           onClick={this.redirectToAddTimelinePage}>
           Post</button>
       </div>
