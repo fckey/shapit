@@ -6,7 +6,7 @@ const Header = () => {
     <nav className="nav navbar-default navbar-fixed-top">
       <div className="navbar-header">
         <a className="navbar-brand" href="/">
-          shapit
+        shapit
         </a>
       </div>
       <div className="container-fluid">
